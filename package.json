@@ -1,0 +1,38 @@
+{
+  "name": "graduation-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server",
+    "start": "npm start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed-shereif/Graduation-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-shereif/Graduation-project/issues"
+  },
+  "homepage": "https://github.com/ahmed-shereif/Graduation-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.18",
+    "react-scripts": "^5.0.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
